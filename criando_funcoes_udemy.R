@@ -56,3 +56,18 @@ resumo <- function(x) {
 
 resumo(m)
 resumo(n)
+
+# Funções mais detalhadas ------------------------------------------------------------------------------------------------------------------
+
+resumo <- function(x) {
+  print("Média")
+  print(mean(x))
+  print("Desvio padrão")
+  print(sd(x))
+  hist(x)
+  boxplot(x)
+}
+
+resumo(m)
+resumo(n)
+resumo(1:20) 
